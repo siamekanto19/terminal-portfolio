@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Fira Code';
+}
+
+body input {
+    @apply focus:outline-none;
+}
+
+.min-h-96 {
+    min-height: 24rem;
+}
